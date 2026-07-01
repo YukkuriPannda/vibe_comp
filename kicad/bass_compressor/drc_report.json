@@ -1,0 +1,776 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-07-01T21:22:03+0900",
+    "kicad_version": "8.0.1",
+    "schematic_parity": [],
+    "source": "bass_compressor.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "フットプリント 'CP_Radial_D5.0mm_P2.00mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C7",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 154.0
+                    },
+                    "uuid": "0288078f-61a6-46a8-b76b-0e737807435d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R17",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 140.0
+                    },
+                    "uuid": "07a3ff7d-d687-47e6-9620-0671d07d5622"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R12",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 133.0
+                    },
+                    "uuid": "0836fd1d-73a4-4c02-bad2-7a7deddb4e71"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_Radial_D5.0mm_H11.0mm_P2.00mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C10",
+                    "pos": {
+                        "x": 153.0,
+                        "y": 154.0
+                    },
+                    "uuid": "103e38e6-2409-467f-b3dd-c0e54a079c10"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'DIP-8_W7.62mm_Socket' が、ライブラリ 'Package_DIP' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント U1",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 90.0
+                    },
+                    "uuid": "1734896a-2a21-4ad5-a8ae-67a7d1f25618"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'D_DO-35_SOD27_P10.16mm_Horizontal' が、ライブラリ 'Diode_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント D1",
+                    "pos": {
+                        "x": 166.0,
+                        "y": 140.0
+                    },
+                    "uuid": "196b0b19-6061-481a-8751-72c4ec905058"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R14",
+                    "pos": {
+                        "x": 166.0,
+                        "y": 133.0
+                    },
+                    "uuid": "1de8ebb7-9ed2-47b6-bfad-2463bdde85aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R10",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 133.0
+                    },
+                    "uuid": "21f1e8f1-0e48-406e-afdc-73dcdf2729bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'D_DO-35_SOD27_P10.16mm_Horizontal' が、ライブラリ 'Diode_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント D2",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 147.0
+                    },
+                    "uuid": "26359161-342d-434e-9f1f-92c2236c7df0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_Radial_D5.0mm_H11.0mm_P2.00mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C3",
+                    "pos": {
+                        "x": 153.0,
+                        "y": 147.0
+                    },
+                    "uuid": "3ff7f996-ede6-4aad-b358-95d908e8c2ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'TO-92' が、ライブラリ 'Package_TO_SOT_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント Q2",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 147.0
+                    },
+                    "uuid": "40bfa93e-8052-42ce-a369-71f10ca2e93c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'DIP-16_W7.62mm_Socket' が、ライブラリ 'Package_DIP' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント IC1",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 90.0
+                    },
+                    "uuid": "469582fa-fb50-479b-8066-7a78b643c879"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R2",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 126.0
+                    },
+                    "uuid": "46bb2e4b-fa78-4411-9620-385a7ebfdcd7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R5",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 126.0
+                    },
+                    "uuid": "4721e1f7-9351-4430-b6a2-2446eeccae04"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R11",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 133.0
+                    },
+                    "uuid": "5059a398-5806-44e6-81b9-5ad1c003c500"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R15",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 140.0
+                    },
+                    "uuid": "51943295-8b6a-48d0-98f6-82d28710f9aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'Relay_DPDT_Schrack-RT2-FormC_RM5mm' が、ライブラリ 'Relay_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント RL1",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 121.0
+                    },
+                    "uuid": "54b987ef-3cb1-4099-86c4-ba524f9c212f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MountingHole_3.2mm_M3' が、ライブラリ 'MountingHole' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント MH4",
+                    "pos": {
+                        "x": 174.0,
+                        "y": 186.0
+                    },
+                    "uuid": "5b92ccca-e32a-4384-b453-dc2d035b269f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'Potentiometer_Alps_RK09K_Single_Vertical' が、ライブラリ 'Potentiometer_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント VR2",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 72.0
+                    },
+                    "uuid": "5f061ddc-1e2a-4b91-836f-5b65468934c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MountingHole_3.2mm_M3' が、ライブラリ 'MountingHole' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント MH2",
+                    "pos": {
+                        "x": 174.0,
+                        "y": 66.0
+                    },
+                    "uuid": "6a54fbba-fe61-4a42-9440-dc9560881614"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_Radial_D5.0mm_H11.0mm_P2.00mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C5",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 154.0
+                    },
+                    "uuid": "6adb65f5-e7df-4f32-9784-aef192a52f97"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_Disc_D3.0mm_W2.0mm_P2.50mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C6",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 154.0
+                    },
+                    "uuid": "6d4ee45c-9b4e-4582-9e56-0ff33124d292"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R21",
+                    "pos": {
+                        "x": 153.0,
+                        "y": 140.0
+                    },
+                    "uuid": "6d7fb488-0be7-4926-ae9c-1bd5903c4833"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'CP_Radial_D6.3mm_P2.50mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C1",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 147.0
+                    },
+                    "uuid": "7396610a-99be-4fd7-bb90-3e63657f58ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_Radial_D5.0mm_H11.0mm_P2.00mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C9",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 154.0
+                    },
+                    "uuid": "77eb54de-cded-4419-a679-c94cd9639402"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MountingHole_3.2mm_M3' が、ライブラリ 'MountingHole' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント MH1",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 66.0
+                    },
+                    "uuid": "7f11de7a-79e7-4ac5-a3ce-205c843754bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R13",
+                    "pos": {
+                        "x": 153.0,
+                        "y": 133.0
+                    },
+                    "uuid": "863a8d63-351b-4507-b6ef-8437f895c966"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'LED_D3.0mm' が、ライブラリ 'LED_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント LED1",
+                    "pos": {
+                        "x": 130.0,
+                        "y": 72.0
+                    },
+                    "uuid": "8652832a-e619-4497-ba12-2363f48eec74"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R19",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 140.0
+                    },
+                    "uuid": "875508a8-d1bb-470e-943e-b0cd00220cd1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R20",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 140.0
+                    },
+                    "uuid": "90ef1f0e-7bd0-4d23-8c52-dca18e7ce221"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'MountingHole_3.2mm_M3' が、ライブラリ 'MountingHole' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント MH3",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 186.0
+                    },
+                    "uuid": "98b218b9-6063-4390-a957-d3c8121cc777"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R8",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 133.0
+                    },
+                    "uuid": "9f7fc8ab-41a9-415b-8daf-5b08a9021871"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'Potentiometer_Alps_RK09K_Single_Vertical' が、ライブラリ 'Potentiometer_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント VR1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 72.1
+                    },
+                    "uuid": "9fe988d0-a2d9-42b8-a2ee-e06543c7f11a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_Radial_D5.0mm_H11.0mm_P2.00mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C11",
+                    "pos": {
+                        "x": 166.0,
+                        "y": 154.0
+                    },
+                    "uuid": "a0db4ac1-27a3-458b-bee6-d5cd7759567a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R1",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 126.0
+                    },
+                    "uuid": "a31c68fd-fc53-455d-b3c9-924eafd4d090"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'TO-92' が、ライブラリ 'Package_TO_SOT_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント Q1",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 147.0
+                    },
+                    "uuid": "a5b914f3-4c88-403e-a50e-ea46fadb4273"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R4",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 126.0
+                    },
+                    "uuid": "a836e581-d857-45b7-a392-fa8da1230ead"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R7",
+                    "pos": {
+                        "x": 166.0,
+                        "y": 126.0
+                    },
+                    "uuid": "ab468461-4677-4b0c-9baa-bc1ac0db1470"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_Radial_D5.0mm_H11.0mm_P2.00mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C4",
+                    "pos": {
+                        "x": 166.0,
+                        "y": 147.0
+                    },
+                    "uuid": "b5b866f1-5184-4932-84a3-6e3261e5f200"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R3",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 126.0
+                    },
+                    "uuid": "b983a31e-c6c9-4e6b-86cd-e42b3086a607"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal' が、ライブラリ 'Connector_Audio' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント J2",
+                    "pos": {
+                        "x": 165.0,
+                        "y": 88.0
+                    },
+                    "uuid": "bab01d05-d4f7-4739-b2fd-574a8b1fd525"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R18",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 140.0
+                    },
+                    "uuid": "c1f28c7c-6449-4b24-8ce0-389583d8bbc5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R9",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 133.0
+                    },
+                    "uuid": "ce91e653-5c09-49ad-8651-dcb5118786c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'SW_Cherry_MX_1.00u_PCB' が、ライブラリ 'Button_Switch_Keyboard' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント SW1",
+                    "pos": {
+                        "x": 132.54,
+                        "y": 172.42
+                    },
+                    "uuid": "cf710d79-a764-4dc6-91f0-e3689e90cd8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_Radial_D5.0mm_H11.0mm_P2.00mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C8",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 154.0
+                    },
+                    "uuid": "db70d0ca-71e5-4aa9-b3eb-6ecfdc1ea443"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R16",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 168.0
+                    },
+                    "uuid": "dd38d39f-f2af-4937-ac39-3d7648dcedc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' が、ライブラリ 'Resistor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント R6",
+                    "pos": {
+                        "x": 153.0,
+                        "y": 126.0
+                    },
+                    "uuid": "e27609d9-4619-4460-9e85-be05b07d7bf6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'C_Radial_D5.0mm_H11.0mm_P2.00mm' が、ライブラリ 'Capacitor_THT' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント C2",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 147.0
+                    },
+                    "uuid": "e3b63cd2-102f-492a-9549-a4794079bbb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'PinHeader_1x02_P2.54mm_Vertical' が、ライブラリ 'Connector_PinHeader_2.54mm' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント BT1",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 161.0
+                    },
+                    "uuid": "e5aab3b1-bec3-49f4-b6dd-7efb5a7b4363"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'DIP-14_W7.62mm_Socket' が、ライブラリ 'Package_DIP' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント IC3",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 90.0
+                    },
+                    "uuid": "ea1a3929-9442-4331-8881-417f621886a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "フットプリント 'Jack_6.35mm_Neutrik_NRJ6HF_Horizontal' が、ライブラリ 'Connector_Audio' のコピーと一致しません。",
+            "items": [
+                {
+                    "description": "フットプリント J1",
+                    "pos": {
+                        "x": 83.0,
+                        "y": 90.0
+                    },
+                    "uuid": "ebdffcc6-44d5-4f68-9173-c913e8c429d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}
