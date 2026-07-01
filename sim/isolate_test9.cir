@@ -1,0 +1,13 @@
+* Re-test: does connecting the diode-bias resistor (RD/LIN) break output,
+* now that VSS is shifted away from 0 and OTAIN/INN are biased near mid-supply?
+.include lm13700.sub
+Vccs VCCS 0 4.5
+Vsss VSSS 0 -4.5
+Vsig OTAIN 0 SINE(0 15m 100)
+Iabc 0 IABC1 500u
+RD VCCS DBIAS1 7.5k
+R4 OUT1 0 47k
+XOTA1 DBIAS1 OTAIN 0 IABC1 OUT1 VCCS VSSS VSSS BUF1 HALF13700
+RBUFBLEED BUF1 VSSS 1G
+.tran 0 0.03 0 20u
+.end

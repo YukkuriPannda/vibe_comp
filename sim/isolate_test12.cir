@@ -1,0 +1,18 @@
+* Same as isolate_test10 (broken) but with .ic hints to steer the solver away from the
+* spurious operating point it keeps finding via gmin-stepping.
+.include lm13700.sub
+Vccs VCCS 0 4.5
+Vsss VSSS 0 -4.5
+Vsig U1AOUT 0 SINE(0 0.8 100)
+Rattn_a U1AOUT ATTMID 100k
+Rattn_b ATTMID 0 1.6k
+C2 ATTMID OTAIN 1u
+R3 OTAIN 0 100k
+RD VCCS DBIAS1 7.5k
+RABC VCCS IABC1 75k
+R4 OUT1 0 47k
+XOTA1 DBIAS1 OTAIN 0 IABC1 OUT1 VCCS VSSS VSSS BUF1 HALF13700
+RBUFBLEED BUF1 VSSS 1G
+.ic V(otain)=0 V(out1)=0 V(dbias1)=0.83
+.tran 0 0.03 0 20u uic
+.end

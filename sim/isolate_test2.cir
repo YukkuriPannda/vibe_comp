@@ -1,0 +1,16 @@
+* Isolate test 2: use an ideal current source for IABC (like the model author's own test)
+* instead of a resistor, single supply VCC=9 VSS=0, to narrow down the zero-output issue.
+.include lm13700.sub
+Vcc VCC 0 9
+R1 VCC VREF 100k
+R2 VREF 0 100k
+
+Vsig OTAIN 0 SINE(0 15m 100)
+Iabc 0 IABC1 500u
+RD VCC DBIAS1 7.5k
+R4 OUT1 VREF 47k
+XOTA1 DBIAS1 OTAIN 0 IABC1 OUT1 VCC 0 0 BUF1 HALF13700
+RBUFBLEED BUF1 0 1G
+
+.tran 0 0.05 0 20u
+.end

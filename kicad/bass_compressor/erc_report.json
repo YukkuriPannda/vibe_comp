@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-07-01T15:07:31+0900",
+    "kicad_version": "8.0.1",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/5b1f0a10-0000-4000-8000-000000000001",
+            "violations": [
+                {
+                    "description": "シンボル 'TL072' はライブラリ 'Amplifier_Operational' で変更されています",
+                    "items": [
+                        {
+                            "description": "シンボル U1 [TL072]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 0.9017
+                            },
+                            "uuid": "3a5fc6de-05df-4764-9160-783942d7140a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "シンボル 'TL072' はライブラリ 'Amplifier_Operational' で変更されています",
+                    "items": [
+                        {
+                            "description": "シンボル U1 [TL072]",
+                            "pos": {
+                                "x": 3.7973,
+                                "y": 1.2954
+                            },
+                            "uuid": "5e5855bf-9bdd-4915-82a6-de5835e4bd63"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "シンボル 'TL072' はライブラリ 'Amplifier_Operational' で変更されています",
+                    "items": [
+                        {
+                            "description": "シンボル U1 [TL072]",
+                            "pos": {
+                                "x": 3.7973,
+                                "y": 0.9017
+                            },
+                            "uuid": "2cba3e2d-9200-44e1-8208-e9fd5356b1ac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "bass_compressor.kicad_sch"
+}

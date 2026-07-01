@@ -1,0 +1,20 @@
+# SPICE simulation outputs (large, regenerable from the .cir files)
+*.raw
+*.op.raw
+*.log
+*.net
+
+# numpy caches used to analyze simulation results (regenerable)
+*.npz
+
+# KiCad backups/caches
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+*.kicad_prl
+
+# OS cruft
+Thumbs.db
+.DS_Store

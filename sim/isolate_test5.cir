@@ -1,0 +1,12 @@
+* Isolate test 5: match reference topology's symmetric dual-resistor output load (to VCC and to VSS/GND)
+* instead of a single resistor to an external VREF node.
+.include lm13700.sub
+Vcc VCC 0 9
+Vsig OTAIN 0 SINE(0 15m 100)
+Iabc 0 IABC1 1m
+R4a OUT1 VCC 47k
+R4b OUT1 0 47k
+XOTA1 NC1 OTAIN 0 IABC1 OUT1 VCC 0 0 BUF1 HALF13700
+RBUFBLEED BUF1 0 1G
+.tran 0 0.05 0 20u
+.end

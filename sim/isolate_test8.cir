@@ -1,0 +1,12 @@
+* Isolate test 8: same as working test6, but VSS changed from -5 to 0 (only variable changed).
+.include lm13700.sub
+Vcc VCC 0 5
+Vss VSS 0 0
+Vsig OTAIN 0 SINE(0 100m 1k)
+Iabc VCC IABC1 1m
+R4 OUT1 VCC 1k
+R5 OUT1 VSS 1k
+XOTA1 NC1 OTAIN 0 IABC1 OUT1 VCC VSS 0 BUF1 HALF13700
+RBUFBLEED BUF1 0 1G
+.tran 0 0.01 0 1u
+.end

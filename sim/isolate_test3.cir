@@ -1,0 +1,11 @@
+* Isolate test 3: leave LIN (diode bias) floating, exactly as the model author's working reference test does.
+.include lm13700.sub
+Vcc VCC 0 9
+Vvref VREF 0 4.5
+Vsig OTAIN 0 SINE(0 15m 100)
+Iabc 0 IABC1 500u
+R4 OUT1 VREF 47k
+XOTA1 NC1 OTAIN 0 IABC1 OUT1 VCC 0 0 BUF1 HALF13700
+RBUFBLEED BUF1 0 1G
+.tran 0 0.05 0 20u
+.end

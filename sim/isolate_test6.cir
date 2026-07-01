@@ -1,0 +1,13 @@
+* Isolate test 6: exact reference conditions (split supply +-5V) but using MY netlist syntax style
+* to check whether my X-line/pin-order itself is the bug, independent of VSS=0 vs VSS=-5.
+.include lm13700.sub
+Vcc VCC 0 5
+Vss VSS 0 -5
+Vsig OTAIN 0 SINE(0 100m 1k)
+Iabc VCC IABC1 1m
+R4 OUT1 VCC 1k
+R5 OUT1 VSS 1k
+XOTA1 NC1 OTAIN 0 IABC1 OUT1 VCC VSS 0 BUF1 HALF13700
+RBUFBLEED BUF1 0 1G
+.tran 0 0.01 0 1u
+.end

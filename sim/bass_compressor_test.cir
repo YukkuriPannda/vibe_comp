@@ -1,0 +1,84 @@
+* Bass Compressor - core audio path verification (Phase 2 SPICE check)
+* Based on docs/circuit_reference.md (2026-07-01, post R_ABC=820k / R_prebias=3.3Meg fix)
+* Bypass (Cherry MX / TC4013 / relay) logic is NOT simulated here - audio path only.
+
+.include lm13700.sub
+
+* --- generic ideal op-amp (TL072-like: Ao~200k, GBW~3MHz) ---
+.subckt OPAMP INP INN OUT
+Ri INP INN 10MEG
+E1 N4 0 INP INN 200k
+Rp N4 0 1MEG
+Cp N4 0 10.6n
+Ro N4 OUT 50
+.ends OPAMP
+
+.model D1N4148 D(IS=2.52n N=1.752 RS=0.568 CJO=4p TT=20n)
+.model QGEN NPN(IS=1e-14 BF=200 VAF=100)
+
+* --- power / bias ---
+Vcc VCC 0 9
+R1 VCC VREF 100k
+R2 VREF 0 100k
+Cvref VREF 0 10u
+
+* --- test input: quiet(0.05Vpk) -> sudden loud(0.8Vpk) at 50ms -> back to quiet at 250ms ---
+* 100Hz "bass note" carrier, envelope via PWL
+Venv ENV 0 PWL(0 0.05 0.05 0.05 0.052 0.8 0.25 0.8 0.252 0.05 1.0 0.05)
+Bsig INSRC 0 V=V(ENV)*sin(2*3.14159265*100*time)
+
+* --- input buffer (U1A, unity gain follower) ---
+Cin INSRC N1 0.1u
+Rinbias N1 VREF 1MEG
+XU1A N1 U1AOUT U1AOUT OPAMP
+
+* --- OTA gain stage (LM13700 OTA#1) ---
+* NOTE (2026-07-01, 2nd SPICE run): first run showed OTAIN was driven by up to ~1.6Vpp,
+* thousands of times beyond the OTA's real differential-input linear range (tens of mV,
+* per LM13700 datasheet Fig.20 "input divider reduces 1Vp input to 33mVpp"). Added an
+* input attenuator (Ratten/R3) matching that approach, and re-solved RABC for target gain.
+C2 U1AOUT ATTNODE 1u
+Ratten ATTNODE OTAIN 100k
+R3 OTAIN 0 1.6k
+RD VCC DBIAS1 7.5k
+RABC VCC IABC1 13k
+R4 OUT1 VREF 47k
+XOTA1 DBIAS1 OTAIN 0 IABC1 OUT1 VCC 0 0 BUF1 HALF13700
+RBUFBLEED BUF1 0 1G
+
+QCTRL IABC1 QBASE 0 QGEN
+
+* --- envelope detector + prebias ---
+Cenv OUT1 NODEA 0.1u
+Renvbias NODEA 0 1MEG
+D1 NODEA D1K D1N4148
+Rattack D1K NODEE 2.2k
+Chold NODEE 0 1u
+Rrelease NODEE 0 220k
+Rprebias VCC NODEE 3.3MEG
+
+* --- Sustain pot (VR1, 10k) fixed at test setting SUSTAIN_FRAC of full scale ---
+.param SUSTAIN_FRAC=0.7
+Rpot_top NODEE WIPER {(1-SUSTAIN_FRAC)*10k+1}
+Rpot_bot WIPER 0 {SUSTAIN_FRAC*10k+1}
+Rbase WIPER QBASE 2.2k
+
+* --- makeup gain stage (U1B) ---
+C3 OUT1 N5 1u
+R5 N5 VREF 100k
+XU1B N5 U1BINN U1BOUT OPAMP
+R6 U1BINN 0 10k
+R7 U1BINN U1BOUT 47k
+
+* --- output stage (Level pot VR2 fixed near max for this test) ---
+C4 U1BOUT N6 1u
+.param LEVEL_FRAC=0.9
+Rvr2_top N6 LVLWIPER {(1-LEVEL_FRAC)*10k+1}
+Rvr2_bot LVLWIPER 0 {LEVEL_FRAC*10k+1}
+C5 LVLWIPER OUTFINAL 1u
+Rload OUTFINAL 0 1MEG
+
+.tran 0 0.8 0 50u
+
+.backanno
+.end
