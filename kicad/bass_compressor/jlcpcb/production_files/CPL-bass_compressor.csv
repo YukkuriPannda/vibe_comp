@@ -1,0 +1,48 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+BT1,9V,PinHeader_1x02_P2.54mm_Vertical,88.0,-162.27,0.0,top
+C1,100uF/16V,CP_Radial_D6.3mm_P2.50mm,128.25,-147.0,0.0,top
+C10,1uF,C_Radial_D5.0mm_H11.0mm_P2.00mm,154.0,-154.0,0.0,top
+C11,0.1uF,C_Radial_D5.0mm_H11.0mm_P2.00mm,167.0,-154.0,0.0,top
+C2,1uF,C_Radial_D5.0mm_H11.0mm_P2.00mm,141.0,-147.0,0.0,top
+C3,1uF,C_Radial_D5.0mm_H11.0mm_P2.00mm,154.0,-147.0,0.0,top
+C4,1uF,C_Radial_D5.0mm_H11.0mm_P2.00mm,167.0,-147.0,0.0,top
+C5,1uF,C_Radial_D5.0mm_H11.0mm_P2.00mm,89.0,-154.0,0.0,top
+C6,0.1uF,C_Disc_D3.0mm_W2.0mm_P2.50mm,102.25,-154.0,0.0,top
+C7,10uF,CP_Radial_D5.0mm_P2.00mm,115.0,-154.0,0.0,top
+C8,0.1uF,C_Radial_D5.0mm_H11.0mm_P2.00mm,128.0,-154.0,0.0,top
+C9,0.1uF,C_Radial_D5.0mm_H11.0mm_P2.00mm,141.0,-154.0,0.0,top
+D1,1N4148,D_DO-35_SOD27_P10.16mm_Horizontal,171.08,-140.0,0.0,top
+D2,1N4148,D_DO-35_SOD27_P10.16mm_Horizontal,93.08,-147.0,0.0,top
+IC1,LM13700,DIP-16_W7.62mm_Socket,125.81,-98.89,0.0,top
+IC3,TC4013BP,DIP-14_W7.62mm_Socket,155.81,-97.62,0.0,top
+J1,6.3mm TRS(mono use),Jack_6.35mm_Neutrik_NRJ6HF_Horizontal,89.35,-95.715,0.0,top
+J2,6.3mm TS(out),Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal,171.35,-96.115,0.0,top
+LED1,LED,LED_D3.0mm,131.27,-72.0,0.0,top
+Q1,2SC1815,TO-92,102.27,-146.365,0.0,top
+Q2,2SC1815,TO-92,115.27,-146.365,0.0,top
+R1,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,93.08,-126.0,0.0,top
+R10,2.2k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,119.08,-133.0,0.0,top
+R11,1M,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,132.08,-133.0,0.0,top
+R12,2.2k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,145.08,-133.0,0.0,top
+R13,220k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,158.08,-133.0,0.0,top
+R14,1M,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,171.08,-133.0,0.0,top
+R15,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,93.08,-140.0,0.0,top
+R16,150R 1/2W,R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,94.35,-168.0,0.0,top
+R17,10k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,106.08,-140.0,0.0,top
+R18,2.2k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,119.08,-140.0,0.0,top
+R19,3.3M,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,132.08,-140.0,0.0,top
+R2,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,106.08,-126.0,0.0,top
+R20,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,145.08,-140.0,0.0,top
+R21,1.6k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,158.08,-140.0,0.0,top
+R3,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,119.08,-126.0,0.0,top
+R4,47k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,132.08,-126.0,0.0,top
+R5,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,145.08,-126.0,0.0,top
+R6,10k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,158.08,-126.0,0.0,top
+R7,47k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,171.08,-126.0,0.0,top
+R8,7.5k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,93.08,-133.0,0.0,top
+R9,75k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,106.08,-133.0,0.0,top
+RL1,941H-2C-5D,Relay_DPDT_Schrack-RT2-FormC_RM5mm,132.42,-117.25,0.0,top
+SW1,Cherry MX (手持ち),SW_Cherry_MX_1.00u_PCB,130.0,-175.41,0.0,top
+U1,TL072,DIP-8_W7.62mm_Socket,103.81,-93.81,0.0,top
+VR1,10k(B) Sustain,Potentiometer_Alps_RK09K_Single_Vertical,114.05,-74.6,0.0,top
+VR2,10k(A) Level,Potentiometer_Alps_RK09K_Single_Vertical,154.05,-74.5,0.0,top

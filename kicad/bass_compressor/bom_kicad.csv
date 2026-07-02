@@ -13,7 +13,7 @@
 "C11","0.1uF","Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm","1",""
 "D1","1N4148","Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal","1",""
 "D2","1N4148","Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal","1",""
-"IC1","LM13700","Package_DIP:DIP-16_W7.62mm_Socket","1",""
+"IC1","NJM13700D","Package_DIP:DIP-16_W7.62mm_Socket","1",""
 "IC3","TC4013BP","Package_DIP:DIP-14_W7.62mm_Socket","1",""
 "J1","6.3mm TRS(mono use)","Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal","1",""
 "J2","6.3mm TS(out)","Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal","1",""
